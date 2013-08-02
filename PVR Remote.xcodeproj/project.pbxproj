@@ -1,0 +1,305 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3BBDD89B17AC4AA00090D890 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBDD89A17AC4AA00090D890 /* UIKit.framework */; };
+		3BBDD89D17AC4AA00090D890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBDD89C17AC4AA00090D890 /* Foundation.framework */; };
+		3BBDD89F17AC4AA00090D890 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBDD89E17AC4AA00090D890 /* CoreGraphics.framework */; };
+		3BBDD8A517AC4AA00090D890 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3BBDD8A317AC4AA00090D890 /* InfoPlist.strings */; };
+		3BBDD8A717AC4AA00090D890 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBDD8A617AC4AA00090D890 /* main.m */; };
+		3BBDD8AB17AC4AA00090D890 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBDD8AA17AC4AA00090D890 /* AppDelegate.m */; };
+		3BBDD8AD17AC4AA00090D890 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BBDD8AC17AC4AA00090D890 /* Default.png */; };
+		3BBDD8AF17AC4AA00090D890 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BBDD8AE17AC4AA00090D890 /* Default@2x.png */; };
+		3BBDD8B117AC4AA00090D890 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BBDD8B017AC4AA00090D890 /* Default-568h@2x.png */; };
+		3BBDD8B417AC4AA00090D890 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBDD8B217AC4AA00090D890 /* MainStoryboard.storyboard */; };
+		3BBDD8B717AC4AA00090D890 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BBDD8B617AC4AA00090D890 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3BBDD89717AC4AA00090D890 /* PVR Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PVR Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BBDD89A17AC4AA00090D890 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3BBDD89C17AC4AA00090D890 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3BBDD89E17AC4AA00090D890 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3BBDD8A217AC4AA00090D890 /* PVR Remote-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PVR Remote-Info.plist"; sourceTree = "<group>"; };
+		3BBDD8A417AC4AA00090D890 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3BBDD8A617AC4AA00090D890 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3BBDD8A817AC4AA00090D890 /* PVR Remote-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PVR Remote-Prefix.pch"; sourceTree = "<group>"; };
+		3BBDD8A917AC4AA00090D890 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3BBDD8AA17AC4AA00090D890 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3BBDD8AC17AC4AA00090D890 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		3BBDD8AE17AC4AA00090D890 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		3BBDD8B017AC4AA00090D890 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		3BBDD8B317AC4AA00090D890 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		3BBDD8B517AC4AA00090D890 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3BBDD8B617AC4AA00090D890 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3BBDD89417AC4AA00090D890 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBDD89B17AC4AA00090D890 /* UIKit.framework in Frameworks */,
+				3BBDD89D17AC4AA00090D890 /* Foundation.framework in Frameworks */,
+				3BBDD89F17AC4AA00090D890 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BBDD88E17AC4AA00090D890 = {
+			isa = PBXGroup;
+			children = (
+				3BBDD8A017AC4AA00090D890 /* PVR Remote */,
+				3BBDD89917AC4AA00090D890 /* Frameworks */,
+				3BBDD89817AC4AA00090D890 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3BBDD89817AC4AA00090D890 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3BBDD89717AC4AA00090D890 /* PVR Remote.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3BBDD89917AC4AA00090D890 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BBDD89A17AC4AA00090D890 /* UIKit.framework */,
+				3BBDD89C17AC4AA00090D890 /* Foundation.framework */,
+				3BBDD89E17AC4AA00090D890 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3BBDD8A017AC4AA00090D890 /* PVR Remote */ = {
+			isa = PBXGroup;
+			children = (
+				3BBDD8A917AC4AA00090D890 /* AppDelegate.h */,
+				3BBDD8AA17AC4AA00090D890 /* AppDelegate.m */,
+				3BBDD8B217AC4AA00090D890 /* MainStoryboard.storyboard */,
+				3BBDD8B517AC4AA00090D890 /* ViewController.h */,
+				3BBDD8B617AC4AA00090D890 /* ViewController.m */,
+				3BBDD8A117AC4AA00090D890 /* Supporting Files */,
+			);
+			path = "PVR Remote";
+			sourceTree = "<group>";
+		};
+		3BBDD8A117AC4AA00090D890 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3BBDD8A217AC4AA00090D890 /* PVR Remote-Info.plist */,
+				3BBDD8A317AC4AA00090D890 /* InfoPlist.strings */,
+				3BBDD8A617AC4AA00090D890 /* main.m */,
+				3BBDD8A817AC4AA00090D890 /* PVR Remote-Prefix.pch */,
+				3BBDD8AC17AC4AA00090D890 /* Default.png */,
+				3BBDD8AE17AC4AA00090D890 /* Default@2x.png */,
+				3BBDD8B017AC4AA00090D890 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3BBDD89617AC4AA00090D890 /* PVR Remote */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BBDD8BA17AC4AA00090D890 /* Build configuration list for PBXNativeTarget "PVR Remote" */;
+			buildPhases = (
+				3BBDD89317AC4AA00090D890 /* Sources */,
+				3BBDD89417AC4AA00090D890 /* Frameworks */,
+				3BBDD89517AC4AA00090D890 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PVR Remote";
+			productName = "PVR Remote";
+			productReference = 3BBDD89717AC4AA00090D890 /* PVR Remote.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3BBDD88F17AC4AA00090D890 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Lights and Shapes";
+			};
+			buildConfigurationList = 3BBDD89217AC4AA00090D890 /* Build configuration list for PBXProject "PVR Remote" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3BBDD88E17AC4AA00090D890;
+			productRefGroup = 3BBDD89817AC4AA00090D890 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3BBDD89617AC4AA00090D890 /* PVR Remote */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BBDD89517AC4AA00090D890 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBDD8A517AC4AA00090D890 /* InfoPlist.strings in Resources */,
+				3BBDD8AD17AC4AA00090D890 /* Default.png in Resources */,
+				3BBDD8AF17AC4AA00090D890 /* Default@2x.png in Resources */,
+				3BBDD8B117AC4AA00090D890 /* Default-568h@2x.png in Resources */,
+				3BBDD8B417AC4AA00090D890 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3BBDD89317AC4AA00090D890 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3BBDD8A717AC4AA00090D890 /* main.m in Sources */,
+				3BBDD8AB17AC4AA00090D890 /* AppDelegate.m in Sources */,
+				3BBDD8B717AC4AA00090D890 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3BBDD8A317AC4AA00090D890 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BBDD8A417AC4AA00090D890 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3BBDD8B217AC4AA00090D890 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3BBDD8B317AC4AA00090D890 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3BBDD8B817AC4AA00090D890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3BBDD8B917AC4AA00090D890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3BBDD8BB17AC4AA00090D890 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PVR Remote/PVR Remote-Prefix.pch";
+				INFOPLIST_FILE = "PVR Remote/PVR Remote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3BBDD8BC17AC4AA00090D890 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PVR Remote/PVR Remote-Prefix.pch";
+				INFOPLIST_FILE = "PVR Remote/PVR Remote-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3BBDD89217AC4AA00090D890 /* Build configuration list for PBXProject "PVR Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBDD8B817AC4AA00090D890 /* Debug */,
+				3BBDD8B917AC4AA00090D890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BBDD8BA17AC4AA00090D890 /* Build configuration list for PBXNativeTarget "PVR Remote" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BBDD8BB17AC4AA00090D890 /* Debug */,
+				3BBDD8BC17AC4AA00090D890 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3BBDD88F17AC4AA00090D890 /* Project object */;
+}

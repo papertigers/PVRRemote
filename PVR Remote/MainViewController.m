@@ -17,6 +17,9 @@
 @implementation MainViewController
 
 @synthesize menuButton;
+- (IBAction)menuBttn:(id)sender {
+   [self.slidingViewController anchorTopViewTo:ECRight]; 
+}
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -42,12 +45,18 @@
     
     [self.view addGestureRecognizer:self.slidingViewController.panGesture];
     
-    self.menuButton = [UIButton buttonWithType:UIButtonTypeCustom];
-    menuButton.frame = CGRectMake(8, 10, 34, 24);
-    [menuButton setBackgroundImage:[UIImage imageNamed:@"menuButton.png"] forState:UIControlStateNormal];
-    [menuButton addTarget:self action:@selector(revealMenu:) forControlEvents:UIControlEventTouchUpInside];
+    //Attempt a navigation controller
+//    UINavigationBar *navBar = [[UINavigationBar alloc] init];
+//    navBar.frame = CGRectMake(0, 0, self.view.frame.size.width, 50);
+//    [self.view addSubview:navBar];
     
-    [self.view addSubview:self.menuButton];
+    
+//    self.menuButton = [UIButton buttonWithType:UIButtonTypeCustom];
+//    menuButton.frame = CGRectMake(8, 10, 34, 24);
+//    [menuButton setBackgroundImage:[UIImage imageNamed:@"menuButton.png"] forState:UIControlStateNormal];
+//    [menuButton addTarget:self action:@selector(revealMenu:) forControlEvents:UIControlEventTouchUpInside];
+//    
+//    [self.view addSubview:self.menuButton];
     
 }
 

@@ -26,7 +26,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Main"];
+    self.topViewController = [self.storyboard instantiateViewControllerWithIdentifier:@"Remote"];
     
 }
 

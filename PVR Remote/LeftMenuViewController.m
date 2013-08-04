@@ -15,6 +15,7 @@
 @end
 
 @implementation LeftMenuViewController
+
 @synthesize menu;
 
 - (id)initWithStyle:(UITableViewStyle)style
@@ -39,7 +40,7 @@
     self.menu = [NSArray arrayWithObjects:@"Main", @"Second", nil];
     
     [self.slidingViewController setAnchorRightRevealAmount:200.0f];
-    self.slidingViewController.underLeftViewController = ECFullWidth;
+    self.slidingViewController.underLeftWidthLayout = ECFullWidth;
 }
 
 - (void)didReceiveMemoryWarning

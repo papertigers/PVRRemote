@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B54D77C17AE1FDE0049DF3D /* menuButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B54D77B17AE1FDD0049DF3D /* menuButton@2x.png */; };
 		3BBDD89B17AC4AA00090D890 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBDD89A17AC4AA00090D890 /* UIKit.framework */; };
 		3BBDD89D17AC4AA00090D890 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBDD89C17AC4AA00090D890 /* Foundation.framework */; };
 		3BBDD89F17AC4AA00090D890 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BBDD89E17AC4AA00090D890 /* CoreGraphics.framework */; };
@@ -19,11 +20,14 @@
 		3BBDD8B417AC4AA00090D890 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BBDD8B217AC4AA00090D890 /* MainStoryboard.storyboard */; };
 		3BD3C9ED17AE080500039EAF /* LeftMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3C9EC17AE080500039EAF /* LeftMenuViewController.m */; };
 		3BD3C9F017AE082D00039EAF /* InitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3C9EF17AE082D00039EAF /* InitViewController.m */; };
+		3BD3C9F317AE0C5400039EAF /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3C9F217AE0C5400039EAF /* MainViewController.m */; };
+		3BD3C9F617AE0D9400039EAF /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3BD3C9F517AE0D9400039EAF /* SecondViewController.m */; };
 		D5AC10304F9149B4B606089C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26F91CE1F1A74573992AE77F /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		26F91CE1F1A74573992AE77F /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B54D77B17AE1FDD0049DF3D /* menuButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menuButton@2x.png"; sourceTree = "<group>"; };
 		3BBDD89717AC4AA00090D890 /* PVR Remote.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PVR Remote.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BBDD89A17AC4AA00090D890 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		3BBDD89C17AC4AA00090D890 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -42,6 +46,10 @@
 		3BD3C9EC17AE080500039EAF /* LeftMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuViewController.m; sourceTree = "<group>"; };
 		3BD3C9EE17AE082D00039EAF /* InitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InitViewController.h; sourceTree = "<group>"; };
 		3BD3C9EF17AE082D00039EAF /* InitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InitViewController.m; sourceTree = "<group>"; };
+		3BD3C9F117AE0C5400039EAF /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		3BD3C9F217AE0C5400039EAF /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		3BD3C9F417AE0D9400039EAF /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		3BD3C9F517AE0D9400039EAF /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		D561EE84480F4BF08605FB8E /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -92,6 +100,7 @@
 		3BBDD8A017AC4AA00090D890 /* PVR Remote */ = {
 			isa = PBXGroup;
 			children = (
+				3B54D77B17AE1FDD0049DF3D /* menuButton@2x.png */,
 				3BBDD8A917AC4AA00090D890 /* AppDelegate.h */,
 				3BBDD8AA17AC4AA00090D890 /* AppDelegate.m */,
 				3BBDD8B217AC4AA00090D890 /* MainStoryboard.storyboard */,
@@ -122,6 +131,10 @@
 				3BD3C9EF17AE082D00039EAF /* InitViewController.m */,
 				3BD3C9EB17AE080500039EAF /* LeftMenuViewController.h */,
 				3BD3C9EC17AE080500039EAF /* LeftMenuViewController.m */,
+				3BD3C9F117AE0C5400039EAF /* MainViewController.h */,
+				3BD3C9F217AE0C5400039EAF /* MainViewController.m */,
+				3BD3C9F417AE0D9400039EAF /* SecondViewController.h */,
+				3BD3C9F517AE0D9400039EAF /* SecondViewController.m */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -184,6 +197,7 @@
 				3BBDD8AF17AC4AA00090D890 /* Default@2x.png in Resources */,
 				3BBDD8B117AC4AA00090D890 /* Default-568h@2x.png in Resources */,
 				3BBDD8B417AC4AA00090D890 /* MainStoryboard.storyboard in Resources */,
+				3B54D77C17AE1FDE0049DF3D /* menuButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,6 +245,8 @@
 				3BBDD8AB17AC4AA00090D890 /* AppDelegate.m in Sources */,
 				3BD3C9ED17AE080500039EAF /* LeftMenuViewController.m in Sources */,
 				3BD3C9F017AE082D00039EAF /* InitViewController.m in Sources */,
+				3BD3C9F317AE0C5400039EAF /* MainViewController.m in Sources */,
+				3BD3C9F617AE0D9400039EAF /* SecondViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

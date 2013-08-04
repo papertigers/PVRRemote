@@ -1,1 +1,1 @@
-../../AFJSONRPCClient/AFJSONRPCClient/AFJSONRPCClient.h
+../../../../../MODIFIED_PODS/AFJSONRPCClient/AFJSONRPCClient/AFJSONRPCClient.h

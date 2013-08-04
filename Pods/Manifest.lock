@@ -1,16 +1,20 @@
 PODS:
-  - AFJSONRPCClient (0.3.1):
+  - AFJSONRPCClient (0.4.0):
     - AFNetworking (>= 0.10.0)
   - AFNetworking (1.3.1)
   - ECSlidingViewController (0.10.0)
 
 DEPENDENCIES:
-  - AFJSONRPCClient (~> 0.3.1)
+  - AFJSONRPCClient (from `/Users/link/src/MODIFIED_PODS/AFJSONRPCClient`)
   - AFNetworking (~> 1.3.1)
   - ECSlidingViewController (~> 0.10.0)
 
+EXTERNAL SOURCES:
+  AFJSONRPCClient:
+    :path: /Users/link/src/MODIFIED_PODS/AFJSONRPCClient
+
 SPEC CHECKSUMS:
-  AFJSONRPCClient: eb8566b12d0f5f6355e57d463fb0a135513bb95a
+  AFJSONRPCClient: d9cd74458d1fc1056f2f2a8be18b14883a8eb9e8
   AFNetworking: 9ec8aafb9269236a7630bd8d9838ce2ba30fa2a0
   ECSlidingViewController: fc9a9a6564d4a64c0d8c7cf5583d2b9a469ecd04
 

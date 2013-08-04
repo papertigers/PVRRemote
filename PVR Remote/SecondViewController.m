@@ -9,6 +9,7 @@
 #import "SecondViewController.h"
 #import "ECSlidingViewController.h"
 #import "LeftMenuViewController.h"
+#import "XBMCAPIClient.h"
 
 @interface SecondViewController ()
 
@@ -17,6 +18,7 @@
 @implementation SecondViewController
 
 @synthesize menuButton;
+@synthesize client;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
@@ -30,6 +32,9 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    //setup client
+    client = [XBMCAPIClient sharedXBMCAPIClient];
     
     //Setup LeftMenu
     self.view.layer.shadowOpacity = 0.75f;
@@ -48,6 +53,32 @@
 //    [menuButton addTarget:self action:@selector(revealMenu:) forControlEvents:UIControlEventTouchUpInside];
 //    
 //    [self.view addSubview:self.menuButton];
+    
+}
+- (IBAction)sciencehdChannel:(id)sender {
+    NSInteger channelid = 323;
+    [client invokeMethod:@"Player.Open" withParameters:@{@"item": @{@"channelid": @(channelid)}}
+     
+                 success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                     //code
+                     NSLog(@"%@", responseObject);
+                 } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                     //code
+                     NSLog(@"The error: %@", error);
+                 }];
+
+}
+- (IBAction)discoveryhdChannel:(id)sender {
+    NSInteger channelid = 321;
+    [client invokeMethod:@"Player.Open" withParameters:@{@"item": @{@"channelid": @(channelid)}}
+     
+                 success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                     //code
+                     NSLog(@"%@", responseObject);
+                 } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                     //code
+                     NSLog(@"The error: %@", error);
+                 }];
     
 }
 

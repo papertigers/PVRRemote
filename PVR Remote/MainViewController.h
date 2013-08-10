@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "XBMCAPIClient.h"
 
 @interface MainViewController : UIViewController
 
 @property (strong, nonatomic) UIButton *menuButton;
+@property (weak, nonatomic) XBMCAPIClient *client;
+
 
 @end

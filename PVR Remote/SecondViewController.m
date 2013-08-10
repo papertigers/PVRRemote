@@ -47,13 +47,6 @@
     
     [self.view addGestureRecognizer:self.slidingViewController.panGesture];
     
-//    self.menuButton = [UIButton buttonWithType:UIButtonTypeCustom];
-//    menuButton.frame = CGRectMake(8, 10, 34, 24);
-//    [menuButton setBackgroundImage:[UIImage imageNamed:@"menuButton.png"] forState:UIControlStateNormal];
-//    [menuButton addTarget:self action:@selector(revealMenu:) forControlEvents:UIControlEventTouchUpInside];
-//    
-//    [self.view addSubview:self.menuButton];
-    
 }
 - (IBAction)sciencehdChannel:(id)sender {
     NSInteger channelid = 323;

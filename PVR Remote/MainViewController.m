@@ -17,6 +17,8 @@
 @implementation MainViewController
 
 @synthesize menuButton;
+@synthesize client;
+
 - (IBAction)menuBttn:(id)sender {
    [self.slidingViewController anchorTopViewTo:ECRight]; 
 }
@@ -34,6 +36,9 @@
 {
     [super viewDidLoad];
     
+    //setup client
+    client = [XBMCAPIClient sharedXBMCAPIClient];
+    
     //Setup LeftMenu
     self.view.layer.shadowOpacity = 0.75f;
     self.view.layer.shadowRadius = 10.0f;
@@ -45,24 +50,88 @@
     
     [self.view addGestureRecognizer:self.slidingViewController.panGesture];
     
-    //Attempt a navigation controller
-//    UINavigationBar *navBar = [[UINavigationBar alloc] init];
-//    navBar.frame = CGRectMake(0, 0, self.view.frame.size.width, 50);
-//    [self.view addSubview:navBar];
-    
-    
-//    self.menuButton = [UIButton buttonWithType:UIButtonTypeCustom];
-//    menuButton.frame = CGRectMake(8, 10, 34, 24);
-//    [menuButton setBackgroundImage:[UIImage imageNamed:@"menuButton.png"] forState:UIControlStateNormal];
-//    [menuButton addTarget:self action:@selector(revealMenu:) forControlEvents:UIControlEventTouchUpInside];
-//    
-//    [self.view addSubview:self.menuButton];
-    
 }
 
 -(IBAction)revealMenu:(id)sender
 {
     [self.slidingViewController anchorTopViewTo:ECRight];
+}
+- (IBAction)selectButton:(id)sender {
+    [client invokeMethod:@"Input.Select" withParameters:@{}
+     
+                 success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                     //code
+                     NSLog(@"%@", responseObject);
+                 } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                     //code
+                     NSLog(@"The error: %@", error);
+                 }];
+}
+- (IBAction)leftButton:(id)sender {
+    [client invokeMethod:@"Input.Left" withParameters:@{}
+     
+                 success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                     //code
+                     NSLog(@"%@", responseObject);
+                 } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                     //code
+                     NSLog(@"The error: %@", error);
+                 }];
+}
+- (IBAction)rightButton:(id)sender {
+    [client invokeMethod:@"Input.Right" withParameters:@{}
+     
+                 success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                     //code
+                     NSLog(@"%@", responseObject);
+                 } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                     //code
+                     NSLog(@"The error: %@", error);
+                 }];
+}
+- (IBAction)upButton:(id)sender {
+    [client invokeMethod:@"Input.Up" withParameters:@{}
+     
+                 success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                     //code
+                     NSLog(@"%@", responseObject);
+                 } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                     //code
+                     NSLog(@"The error: %@", error);
+                 }];
+}
+- (IBAction)downButton:(id)sender {
+    [client invokeMethod:@"Input.Down" withParameters:@{}
+     
+                 success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                     //code
+                     NSLog(@"%@", responseObject);
+                 } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                     //code
+                     NSLog(@"The error: %@", error);
+                 }];
+}
+- (IBAction)playButton:(id)sender {
+    [client invokeMethod:@"Player.PlayPause" withParameters:@{@"playerid": @(1)}
+     
+                 success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                     //code
+                     NSLog(@"%@", responseObject);
+                 } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                     //code
+                     NSLog(@"The error: %@", error);
+                 }];
+}
+- (IBAction)stopButton:(id)sender {
+    [client invokeMethod:@"Player.Stop" withParameters:@{@"playerid": @(1)}
+     
+                 success:^(AFHTTPRequestOperation *operation, id responseObject) {
+                     //code
+                     NSLog(@"%@", responseObject);
+                 } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
+                     //code
+                     NSLog(@"The error: %@", error);
+                 }];
 }
 
 - (void)didReceiveMemoryWarning

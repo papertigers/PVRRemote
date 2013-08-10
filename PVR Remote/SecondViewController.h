@@ -11,5 +11,5 @@
 
 @interface SecondViewController : UIViewController
 @property (strong, nonatomic) UIButton *menuButton;
-@property (strong, nonatomic) XBMCAPIClient *client;
+@property (weak, nonatomic) XBMCAPIClient *client;
 @end

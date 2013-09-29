@@ -6,15 +6,15 @@
 //  Copyright (c) 2013 Lights and Shapes. All rights reserved.
 //
 
-#import "MainViewController.h"
+#import "RemoteControlViewController.h"
 #import "ECSlidingViewController.h"
 #import "LeftMenuViewController.h"
 
-@interface MainViewController ()
+@interface RemoteControlViewController ()
 
 @end
 
-@implementation MainViewController
+@implementation RemoteControlViewController
 
 @synthesize menuButton;
 @synthesize client;

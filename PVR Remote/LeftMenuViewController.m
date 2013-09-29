@@ -35,6 +35,7 @@
     self.tableView.backgroundColor = [UIColor grayColor];
     self.tableView.separatorColor = [UIColor blackColor];
     self.tableView.tableFooterView = [[UIView alloc] initWithFrame:CGRectZero];
+    self.tableView.scrollEnabled = NO;
 
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
